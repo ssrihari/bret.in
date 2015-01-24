@@ -63,6 +63,21 @@ header {
   padding: 10px;
 }
 
+.bm-name {
+  font-weight: bolder;
+  margin: 4px 0;
+}
+
+.bm-desc {
+  margin: 4px 0;
+}
+
+.bm-designation {
+  margin: 4px 0;
+  font-style: italic;
+}
+
+
 @media (max-device-width:480px) {
   .ramanuja {
     width: 50%;
@@ -97,5 +112,13 @@ header {
 
   .nav-link {
     margin: 0.2em;
+  }
+
+  .objectives-list {
+    padding-left: 26px;
+  }
+
+  .objectives-list li {
+    padding: 2px;
   }
 }​
