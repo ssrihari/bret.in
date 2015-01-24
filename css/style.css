@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/earlyaccess/lohitdevanagari.css);
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+h1.title {
+  font-size: 2em;
+}
+
+.ramanuja {
+  width: 20%;
+  margin: 4% auto 0;
+}
+
+.logo {
+  width: 80%;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+header {
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  width: 25%;
+}
+
+.nav-links {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.nav-link {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.nav-link a {
+  color: black;
+}
+
+.mainly-text {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.objectives-list {
+  list-style-type: decimal;
+}
+
+.objectives-list li {
+  padding: 10px;
+}
+
+@media (max-device-width:480px) {
+  .ramanuja {
+    width: 50%;
+    margin: 15% auto 0;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  h1.title {
+    padding: 0 15%;
+    font-size: 1.4em;
+  }
+
+  .mainly-text {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .tagline {
+    width: 80%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .nav-links {
+    font-size: 1em;
+  }
+
+  .nav-link {
+    margin: 0.2em;
+  }
+}​
